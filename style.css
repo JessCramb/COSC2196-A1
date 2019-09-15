@@ -14,7 +14,7 @@ body, html {
   color: #000;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
   position: relative;
   opacity: 0.40;
   background-attachment: fixed;
@@ -25,7 +25,7 @@ body, html {
 }
 .bgimg-1 {
   background-image: url("img_parallax.jpg");
-  min-height: 100%;
+  min-height: 600px;
 }
 
 .bgimg-2 {
@@ -38,6 +38,15 @@ body, html {
   min-height: 400px;
 }
 
+.bgimg-4 {
+  background-image: url("img_parallax4.jpg");
+  min-height: 100%;
+}
+
+.bgimg-5 {
+  background-image: url("img_parallax5.jpg");
+  min-height: 400px;
+}
 
 
 h1 {
@@ -55,11 +64,16 @@ h2 {
   color: #000000;
 }
 
+* {
+  box-sizing: border-box;
+}
 
 .column {
 	float: left;
 	width: 33.33%;
-	padding: 10px;
+	padding: 15px;
+	height: 900px;
+	color: #000000;
 	}
 
 .row:after {
